@@ -37,6 +37,12 @@ a:hover{
    margin: 1rem;
 }
 
+.current{
+   background-color: rgb(218, 231, 99);
+   border-radius: 25%;
+   font-weight: bold;
+}
+
 .content{
    flex: 1;
    display: flex;
