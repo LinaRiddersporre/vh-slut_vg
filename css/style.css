@@ -21,16 +21,15 @@ a {
 }
 
 a:hover{
-   background-color: blue;
+   background-color: yellow;
    border-radius: 25%;
-   color: white;
 }
 
 .navigation{
    display: flex;
    justify-content: center;
    font-size: 1.7rem;
-   background-color: rgb(243, 247, 60);
+   background-color:rgb(106, 106, 238);
 }
 
 .navigation a{
@@ -39,10 +38,9 @@ a:hover{
 }
 
 .current{
-   background-color: blue;
+   background-color: rgb(247, 247, 119);
    border-radius: 25%;
    font-weight: bold;
-   color: white;
 }
 
 .content{
