@@ -1,24 +1,30 @@
-a:link {
-   text-decoration: none;
+.wrapper{
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
 }
 
-a:hover > p {
-   background-color: black;
-   color: white;
+a {
+   text-decoration: none;
+   color: black;
+}
+
+a:hover{
+   background-color: rgb(218, 231, 99);
 }
 
 body {
    background-color: darkolivegreen;
 }
 
+.imgLoggo{
+   height: 100px;
+}
+
 .navigation{
    font-size: 1.5em;
    display:inline;
    padding: 4px 24px;
-}
-
-.imgLoggo{
-   height: 100px;
 }
 
 .banner{
@@ -40,3 +46,8 @@ body {
    font-weight: bolder;
    font-size: 2rem;
 }
+
+.content{
+   flex: 1;
+}
+
