@@ -5,6 +5,11 @@
    background-color: rgb(187, 187, 74);
 }
 
+.logo{
+   display: flex;
+   justify-content: center;
+}
+
 .imgLoggo{
    height: 100px;
 }
