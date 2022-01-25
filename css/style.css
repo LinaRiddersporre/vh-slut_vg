@@ -5,6 +5,10 @@
    background-color: rgb(187, 187, 74);
 }
 
+.imgLoggo{
+   height: 100px;
+}
+
 a {
    text-decoration: none;
    color: black;
@@ -27,8 +31,17 @@ a:hover{
    margin: 1rem;
 }
 
-.imgLoggo{
-   height: 100px;
+.content{
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: larger;
+   margin-top: 1rem;
+}
+
+.content p{
+   max-width: 50%;
 }
 
 .banner{
@@ -51,7 +64,8 @@ a:hover{
    font-size: 2rem;
 }
 
-.content{
-   flex: 1;
+footer{
+   margin-left: 1rem;
 }
+
 
